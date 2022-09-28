@@ -1,0 +1,1 @@
+DefaultEndpointsProtocol=https;AccountName=storageaccforeveryone;AccountKey=CLmrnk0KWKPlIykDCaxT2fTk74++II6q00YW+bDRpUom/+fGE7IA7HOwiHj6ilxJnMA4tdj0oa5C+AStWdJD7g==;EndpointSuffix=core.windows.net

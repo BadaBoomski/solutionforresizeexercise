@@ -20,8 +20,8 @@ namespace AzureKursusfunction
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
-            var containerName = Environment.GetEnvironmentVariable("ContainerName");
-            var conn = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
+            var containerName = "images";
+            var conn = "DefaultEndpointsProtocol=https;AccountName=storageaccforeveryone;AccountKey=CLmrnk0KWKPlIykDCaxT2fTk74++II6q00YW+bDRpUom/+fGE7IA7HOwiHj6ilxJnMA4tdj0oa5C+AStWdJD7g==;EndpointSuffix=core.windows.net";
             try
             {
                 //Get File from request and display name and size
